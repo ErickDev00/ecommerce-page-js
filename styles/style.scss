@@ -1,0 +1,19 @@
+//## colors
+
+//##first
+
+$orange: hsl(26, 100%, 55%);
+$pale-orange: hsl(25, 100%, 94%);
+
+//###neutras 
+
+$Very-vark-blue: hsl(220, 13%, 13%);
+$Dark-grayish-blue: hsl(219, 9%, 45%);
+$Grayish: hsl(220, 14%, 75%);
+$Light-grayish-blue: hsl(223, 64%, 98%);
+$White: hsl(0, 0%, 100%);
+$Black: hsla(0, 0%, 0%, 0.75);
+
+@import "general";
+@import "header";
+@import "lightbox";
