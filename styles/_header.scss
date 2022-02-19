@@ -145,6 +145,105 @@ header {
     .cart{
         position: absolute;
         right: 1rem;
-    }
+        top: calc(calc(100%) + 1rem);
+        width: 35.5rem;
 
+
+        z-index: 1;
+        background-color: $White;
+        border-radius: 1rem;
+
+
+        .cart-header{
+            border-bottom: 1px solid $Dark-grayish-blue;
+            padding: 2rem;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+        .products-in-cart{
+            .item{
+                margin: 2.4rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                .product-img{
+                    width: 5rem;
+                    border-radius: 0.5rem;
+                }
+
+                .details{
+                    color: $Dark-grayish-blue;
+                    text-align: center;
+                    font-size: 1.6rem;
+                    line-height: 2.6rem;
+
+                    .price-group{
+                        display: flex;
+                        gap:0.6rem;
+
+                        .total-amount{
+                            font-weight: 700;
+                            font-size: 1.7rem;
+                            color: $Black;
+                        }
+
+
+
+
+
+                    }
+
+
+                }
+
+                #btnDelete{
+                    padding: 0.5rem;
+                    border-radius: 0.5rem;
+
+                    &:hover{
+                        cursor:pointer;
+                        background-color: $pale-orange;
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+        .msg-empty{
+            color: $Dark-grayish-blue;
+            text-align: center;
+            font-weight: 700;
+
+            padding: 7.8rem 0;
+        }
+
+        .checkout{
+            background: $orange;
+            color: $White;
+
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 700;
+
+            margin: 2.4rem;
+            padding: 1.8rem;
+
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+
+        .hidden{
+            display: none;
+        }
+
+    }
+    .hidden{
+        display: none;
+    }
 }
