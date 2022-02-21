@@ -318,6 +318,10 @@ header .hidden {
   transition: all 0.3s ease;
 }
 
+.lightbox .thumb-gallery {
+  display: none;
+}
+
 .product {
   padding: 2rem 2.4rem;
 }

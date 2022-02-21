@@ -1,46 +1,46 @@
-.lightbox{
-    position: relative;
+.lightbox {
+  position: relative;
 
-    .product-hero{
-        width: 100%;
+  .product-hero {
+    width: 100%;
+  }
+
+  .previous {
+    left: 4%;
+
+    &:hover {
+      left: 3%;
     }
+  }
 
-    .previous {
-        left: 4%;
+  .next {
+    right: 4%;
 
-        &:hover{
-            left: 3%;
-        }
+    &:hover {
+      right: 3%;
     }
+  }
 
-    .next{
-        right: 4%;
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 
-        &:hover {
-            right: 3%;
-        }
-    }
+    background-color: $White;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
 
-    .arrow{
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        background-color: $White;
-        border-radius: 50%;
-        width: 4rem;
-        height: 4rem;
+    cursor: pointer;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    transition: all 0.3s ease;
+  }
 
-        cursor: pointer;
-
-        transition: all 0.3s ease;
-    }
-
-
-
-
+  .thumb-gallery {
+    display: none;
+  }
 }

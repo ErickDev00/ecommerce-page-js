@@ -9,7 +9,7 @@ const btnPlus = document.querySelector('#btnPlus');
 const btnMinus = document.querySelector('#btnMinus');
 const productCounter = document.querySelector('.counter')
 
-const gallery = document.querySelector('pic');
+const gallery = document.querySelectorAll('.pic');
 const heroImg = document.querySelector('.product-hero');
 
 const btnNext = document.querySelector('.next');
@@ -25,8 +25,10 @@ btnCart.addEventListener('click', openCart);
 btnPlus.addEventListener('click', productCounterPlus);
 btnMinus.addEventListener('click', productCounterMinus);
 
+
+
 gallery.forEach(img => {
-    img.addEventListener('click', onThumbClick)
+    img.addEventListener('click', onThumbClick);
 });
 
 btnNext.addEventListener('click', handleBtnClickNext);
