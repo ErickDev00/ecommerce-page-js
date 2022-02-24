@@ -5,7 +5,7 @@
 $orange: hsl(26, 100%, 55%);
 $pale-orange: hsl(25, 100%, 94%);
 
-//###neutras 
+//###neutras
 
 $Very-vark-blue: hsl(220, 13%, 13%);
 $Dark-grayish-blue: hsl(219, 9%, 45%);
@@ -14,8 +14,9 @@ $Light-grayish-blue: hsl(223, 64%, 98%);
 $White: hsl(0, 0%, 100%);
 $Black: hsla(0, 0%, 0%, 0.75);
 
-@import "general";
-@import "header";
-@import "lightbox";
-@import "product1";
-@import "media1440px";
+@import 'general';
+@import 'header';
+@import 'lightbox';
+@import 'product1';
+@import 'media1440px';
+@import 'overlay';

@@ -7,7 +7,8 @@
         "_header.scss",
         "_lightbox.scss",
         "_product1.scss",
-        "_media1440px.scss"
+        "_media1440px.scss",
+        "_overlay.scss"
     ],
     "names": [],
     "file": "style.css"
