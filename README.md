@@ -1,12 +1,12 @@
 # Full E-commerce Project 
 
-<p align="center">Virtual store page, fully responsive and interactive, html accessibility is included.</p>
+<p align="center">Loja virtual, totalmente responsiva e interativa, com acessibilidade html inclusa.</p>
 
 
 
 <p align="center">
- <a href="#why">Why</a> • 
- <a href="#technologies">Technologies</a> • 
+ <a href="#why">Sobre</a> • 
+ <a href="#technologies">Tecnologias</a> • 
 </p>
 
 
@@ -19,13 +19,13 @@
  
 
 
-## **Why?** 
+## **Sobre** 
 
-Complete and functional online sales page, has reusable code.
+Loja completa e funcional, 100% reutilizavel.
 
-## **Technologies**
+## **Tecnologias**
 
-In the project was used: Html; Sass; Javascript; 
+Nesse projeto foi utilizado: Html; Sass; Javascript; 
 
 
 
